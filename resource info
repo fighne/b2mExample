@@ -1,0 +1,47 @@
+BBC News uses RSS feeds (XML)
+http://feeds.bbci.co.uk/news/rss.xml
+SKY News uses RSS feeds (XML)
+http://news.sky.com/feeds/rss/home.xml
+
+Check feeds version types 
+
+BBC News...
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">  
+  <channel> 
+    <title>BBC News - Home</title>  
+    <link>http://www.bbc.co.uk/news/#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+    <description>The latest stories from the Home section of the BBC News web site.</description>  
+    <language>en-gb</language>  
+    <lastBuildDate>Tue, 26 Nov 2013 22:10:51 GMT</lastBuildDate>  
+    <copyright>Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.</copyright>  
+    <image> 
+      <url>http://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>  
+      <title>BBC News - Home</title>  
+      <link>http://www.bbc.co.uk/news/#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <width>120</width>  
+      <height>60</height> 
+    </image>  
+    <ttl>15</ttl>  
+    <atom:link href="http://feeds.bbci.co.uk/news/rss.xml" rel="self" type="application/rss+xml"/>
+
+SKY News...
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <atom:link href="http://media.skynews.com/feeds/rss/home.xml" rel="self" type="application/rss+xml"/>
+    <title>The Latest News from the UK and Around the World | Sky News</title>
+    <link>http://news.sky.com/</link>
+    <image>
+      <title>The Latest News from the UK and Around the World | Sky News</title>
+      <url>http://media.skynews.com/images/web/logo/skynewshd_rss.png</url>
+      <link>http://news.sky.com/</link>
+    </image>
+    <description>Sky news delivers breaking news, headlines and top stories from business, politics, entertainment and more in the UK and worldwide.</description>
+    <language>en-GB</language>
+    <copyright>Copyright 2013, BSKYB. All Rights Reserved.</copyright>
+    <lastBuildDate>Tue, 26 Nov 2013 22:19:59 +0000</lastBuildDate>
+    <category>Sky News</category>
+    <ttl>1</ttl>
