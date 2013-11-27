@@ -59,6 +59,14 @@
         }
     });
 })(this);
+/8
+$(document).ready(function(){
+  $("#nav").aeonNav({
+    Menulabel: 'Menu',
+    MenufontSize: '1.2em'
+  });
+});
+*/
 //apply to any markup with nav like this:
 /*
 
